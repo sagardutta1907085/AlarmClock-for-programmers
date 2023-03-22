@@ -1,5 +1,5 @@
 public class first {
-    int a,b;
+    int a,b,c;
 
     public int getA() {
         return a;
@@ -17,8 +17,17 @@ public class first {
         this.b = b;
     }
 
-    public first(int a, int b) {
+    public int getC() {
+        return c;
+    }
+
+    public void setC(int c) {
+        this.c = c;
+    }
+
+    public first(int a, int b, int c) {
         this.a = a;
         this.b = b;
+        this.c = c;
     }
 }
