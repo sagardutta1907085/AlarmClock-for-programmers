@@ -1,5 +1,3 @@
-import org.junit.AfterClass;
-
 public class first {
     int a,d;
 
