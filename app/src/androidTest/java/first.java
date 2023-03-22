@@ -1,5 +1,7 @@
+import org.junit.AfterClass;
+
 public class first {
-    int a,b,c;
+    int a,d;
 
     public int getA() {
         return a;
@@ -9,25 +11,16 @@ public class first {
         this.a = a;
     }
 
-    public int getB() {
-        return b;
+    public int getD() {
+        return d;
     }
 
-    public void setB(int b) {
-        this.b = b;
+    public void setD(int d) {
+        this.d = d;
     }
 
-    public int getC() {
-        return c;
-    }
-
-    public void setC(int c) {
-        this.c = c;
-    }
-
-    public first(int a, int b, int c) {
+    public first(int a, int d) {
         this.a = a;
-        this.b = b;
-        this.c = c;
+        this.d = d;
     }
 }
